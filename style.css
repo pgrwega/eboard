@@ -1,0 +1,58 @@
+body{
+   background-color: rgb(37, 37, 37);
+    align-content: center;
+   
+}
+.mmu{
+    width: 15%;
+    margin-left: 22px;
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+.container-fluid{
+
+    padding: 1rem 0 0;
+  margin: none;
+  width: 95%;
+  text-align: center;
+}
+
+.grid-gap{
+    padding: 0 0.5px 0;
+    border-radius: 2rem;
+  height: 30vh;
+  transition: 0.3s;
+  
+    
+}
+.grid-gap:hover{
+    box-shadow: 0 8px 16px 0 rgba(155, 143, 143, 0.377);
+    transform: scale(1.013);
+}
+
+.backgroundimage{
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    -webkit-filter: blur(2px);
+}
+.streak{
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    
+    z-index: 1;
+   
+}
+
+.quote{
+    color: #fff;
+}
